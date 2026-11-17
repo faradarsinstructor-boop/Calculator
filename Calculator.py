@@ -4,7 +4,7 @@ from tkinter import font
 class Calculator:
     def __init__(self, root):
         self.root = root
-        self.root.title("ماشین حساب ")
+        self.root.title("ماشین حساب ساده")
         self.root.geometry("360x500")
         self.root.resizable(False, False)
         self.root.configure(bg="#1e1e2e")
